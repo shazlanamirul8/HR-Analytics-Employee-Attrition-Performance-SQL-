@@ -13,6 +13,10 @@ This portfolio uses the HR Analytics: Employee Attrition & Performance dataset f
 ### Explanation
 Foreign Key is used to link employee_id in performance table to employee table in order to test JOIN clause in the queries.
 
+### The Dataset
+[Employee.csv](Employee.csv)
+[PerformanceRating.csv](PerformanceRating.csv)
+
 ## Intermediate Queries
 
 ###
