@@ -110,7 +110,7 @@ This data shows list of employees who have bad work life balance but still main 
 ##### Screenshot of the Query
 ![low_wlb](low_wlb.png)
 
-#### Using COALESCE to Hanlde Missing Ratings in Averages
+#### Using COALESCE to Handle Missing Ratings in Averages
 SELECT 	e.department,
 		ROUND(AVG(COALESCE(p.self_rating, 0)), 2) AS avg_self_rating, ROUND(AVG(COALESCE(p.manager_rating, 0)), 2) AS avg_manager_rating
 FROM employee e
