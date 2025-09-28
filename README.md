@@ -105,7 +105,7 @@ WHERE p.work_life_balance < 3 AND p.relationship_satisfaction >= 3
 ORDER BY work_life_balance;
 
 ##### Insight from the Query
-This data shows list of employees who have bad work life balance but still main good relationship in overall with the company. From this data, employer able to provide suppors to the employees in order to increase their work life balance.
+This data shows list of employees who have low work life balance but still main good relationship in overall with the company. From this data, employer able to provide suppors to the employees in order to increase their work life balance.
 
 ##### Screenshot of the Query
 ![low_wlb](low_wlb.png)
@@ -211,3 +211,8 @@ This portfolio demonstrates intermediate SQL skills using the HR Analytics: Empl
 
 4. Training & Growth
 - Listing all employees and filtering for training participation helps management understand engagement levels and prioritize development opportunities.
+
+## Recommendation for HR/Management of Amirul X
+1. Use rating gaps to guide coaching or mentoring programs.
+2. Focus on departments with low job satisfaction for engagement initiatives.
+3. Encourage training participation in underrepresented teams to foster skill development.
